@@ -20,17 +20,17 @@ A cloud-deployable Python project simulating a Kindle library service, featuring
 ## Installation & Setup
 
 1. **Clone the repository**
-	git clone https://github.com/yourusername/kindle_service_api.git
-	cd  kindle_service_api
+- git clone https://github.com/yourusername/kindle_service_api.git
+- cd  kindle_service_api
 2. **Create and activate virtual environment**
-	python3 -m venv venv
-	source venv/bin/activate
+- python3 -m venv venv
+- source venv/bin/activate
 3. **Install dependencies**
-	pip install -r requirements.txt
+- pip install -r requirements.txt
 4. **Run Flask API**
-	python3 app.py
+- python3 app.py
 5. **Run health check script**
-	./health_check.sh
+- ./health_check.sh
 
 ## Usage
 - Access the API: http://<EC2_PUBLIC_IP>:5000/books
